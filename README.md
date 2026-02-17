@@ -12,7 +12,9 @@ A full-stack web application where users can read, write, and share original sto
 
 ## 📸 Screenshots
 
-> *(Add screenshots here)*
+![Library View](./assets/Library.png)
+![AI Analysis](./assets/Novel.png)
+![Reading Mode](./assets/Writing.png)
 
 ---
 
