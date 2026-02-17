@@ -18,11 +18,11 @@ A full-stack web application where users can read, write, and share original sto
 
 ### 2. The AI "Ghostwriter" 🤖
 *Real-time narrative analysis showing a "Mood Map" and structural grades.*
-![AI Analysis](./assets/ai-feature.png)
+![AI Analysis](./assets/Writing.png)
 
 ### 3. Immersive Reading Mode
 *Secure, sanitized HTML rendering supporting Bold, Italic, and Lists.*
-![Reading Mode](./assets/reading-mode.png)
+![Reading Mode](./assets/Novel.png)
 
 ---
 
