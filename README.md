@@ -12,7 +12,17 @@ A full-stack web application where users can read, write, and share original sto
 
 ## 📸 Screenshots
 
-> *(Add screenshots here)*
+### 1. The Library (Home)
+*Browse stories sorted by "Newest" or "Most Popular".*
+![Library View](./assets/library.png)
+
+### 2. The AI "Ghostwriter" 🤖
+*Real-time narrative analysis showing a "Mood Map" and structural grades.*
+![AI Analysis](./assets/ai-feature.png)
+
+### 3. Immersive Reading Mode
+*Secure, sanitized HTML rendering supporting Bold, Italic, and Lists.*
+![Reading Mode](./assets/reading-mode.png)
 
 ---
 
