@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://junjhon12.github.io/web-stories",
+  "homepage": "https://junjhon12.github.io/web-stories/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

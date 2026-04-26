@@ -16,22 +16,25 @@ function App() {
     <div style={{ fontFamily: 'Arial, sans-serif', backgroundColor: '#464646', minHeight: '100vh' }}>
       <Navbar />
       <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '20px' }}>
-        <Routes>
-          <Route path="/" element={<BookList />} />
-          <Route path="/create" element={<CreateBook />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-          
-          <Route path="/books/:id" element={<BookDetail />} />
-          <Route path="/read/:id" element={<ReadChapter />} />
-          
-          {/* Chapter Routes */}
-          <Route path="/books/:bookId/new-chapter" element={<WriteChapter />} />
-          <Route path="/chapters/:chapterId/edit" element={<WriteChapter />} /> {/* <--- WAS MISSING */}
-          
-          <Route path="/profile/:userId" element={<UserProfile />} />
-          <Route path="/bookshelf" element={<Bookshelf />} />
-        </Routes>
+        <BrowserRouter basename="/web-stories">
+          <Routes>
+            <Route path="/" element={<BookList />} />
+            <Route path="/create" element={<CreateBook />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            
+            <Route path="/books/:id" element={<BookDetail />} />
+            <Route path="/read/:id" element={<ReadChapter />} />
+            
+            {/* Chapter Routes */}
+            <Route path="/books/:bookId/new-chapter" element={<WriteChapter />} />
+            <Route path="/chapters/:chapterId/edit" element={<WriteChapter />} /> {/* <--- WAS MISSING */}
+            
+            <Route path="/profile/:userId" element={<UserProfile />} />
+            <Route path="/bookshelf" element={<Bookshelf />} />
+          </Routes>
+        </BrowserRouter>
+        
       </div>
     </div>
   );
